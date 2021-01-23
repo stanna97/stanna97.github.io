@@ -340,16 +340,12 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: excel 2s ease;
   	-webkit-animation: excel 2s ease;
 }
-.css {
-  	width: 55%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+.tableau {
+  	width: 65%;
+  	-moz-animation: tableau 2s ease;
+  	-webkit-animation: tableau 2s ease;
 }
-.html {
-  	width: 55%;
-  	-moz-animation: html 2s ease;
-  	-webkit-animation: html 2s ease;
-}
+
 .r {
   	width: 45%;
   	-moz-animation: r 2s ease;
@@ -368,13 +364,9 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-moz-keyframes css {
+@-moz-keyframes tableau {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes html {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 65%;  }
 }
 @-moz-keyframes r {
   0%   { width: 0px;  }
@@ -393,13 +385,9 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-webkit-keyframes css {
+@-webkit-keyframes tableau {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes html {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 65%;  }
 }
 @-webkit-keyframes r {
   0%   { width: 0px;  }
