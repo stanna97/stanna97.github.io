@@ -340,10 +340,10 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: excel 2s ease;
   	-webkit-animation: excel 2s ease;
 }
-.tableau {
+.tab {
   	width: 65%;
-  	-moz-animation: tableau 2s ease;
-  	-webkit-animation: tableau 2s ease;
+  	-moz-animation: tab 2s ease;
+  	-webkit-animation: tab 2s ease;
 }
 
 .r {
@@ -364,7 +364,7 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-moz-keyframes tableau {
+@-moz-keyframes tab {
   0%   { width: 0px;  }
   100% { width: 65%;  }
 }
@@ -385,7 +385,7 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-webkit-keyframes tableau {
+@-webkit-keyframes tab {
   0%   { width: 0px;  }
   100% { width: 65%;  }
 }
