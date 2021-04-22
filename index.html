@@ -1,472 +1,177 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
-<head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   <!--- Basic Page Needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<title>Sagar Tanna</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-   <!-- Mobile Specific Metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-	<!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Sagar Tanna</title>
+        <link rel="shortcut icon" href="favicon.png" >
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Sagar Tanna</a>
+                </div>
 
-   <!-- Script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                    </ul>
+                </div>
 
-   <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
 
-</head>
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Sagar</span><br> The Analytics Guy</h1>
 
-<body>
+                    <a href="https://drive.google.com/file/d/1sVzlaE1b90LZDDj2NuVuk6u2E4vEbwe1/view?usp=sharing" class="button">Click Here For My Resume</a>
+                </div>
 
-   <!-- Header
-   ================================================== -->
-   <header id="home">
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/sagar-tanna/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://public.tableau.com/profile/sagar.tanna#!/" class="home__social-icon"><i class='bx bxs-bar-chart-square' ></i></a>
+                    <a href="https://github.com/stanna97" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
 
-      <nav id="nav-wrap">
+                <div class="home__img">    
+                    <img src="assets/img/perfil1.png" alt="">
+                </div>
+            </section>
 
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
 
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
-
-      <div class="row banner">
-         <div class="banner-text">
-            <h1 class="responsive-headline">Hello! I'm Sagar Tanna.</h1>
-            <h3>I'm a New Jersey based graduate student</span> and an analytics enthusiast looking for opportunities to leverage data for making business decisions. Let's <a class="smoothscroll" href="#about">start scrolling</a>
-            and learn more <a class="smoothscroll" href="#about">about me.</a></h3>
-            <hr />
-            <ul class="social">
-               <li><a href="https://www.linkedin.com/in/sagar-tanna/"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://github.com/stanna97"><i class="fa fa-github"></i></a></li>
-               <li><a href="https://public.tableau.com/profile/sagar.tanna#!/"><i class="fa fa-bar-chart"></i></a></li>
-            </ul>
-         </div>
-      </div>
-
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
-
-   </header> <!-- Header End -->
-
-
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
-
-      <div class="row">
-
-         <div class="three columns">
-
-            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
-
-         </div>
-
-         <div class="nine columns main-col">
-
-            <h2>About Me</h2>
-
-            <p>I am currently pursuing my Master's in Information Systems from Stevens Institute of Technology and I also hold a Bachelor's degree in Computer Engineering from the University of Mumbai, India.
-
-               I am a data analytics enthusiast looking for opportunities to leverage data for making business decisions. Apart from my academics, I constantly make an effort to learn new technologies that intrigue me. I am currently in search of job opportunities that can help me master my skills in analytics by working on real-world data and at the same time get industry experience in the field while maintaining the highest standards of work ethics and integrity.
-               
-            </p>
-
-            <div class="row">
-
-               <div class="columns contact-details">
-
-                  <h2>Contact Details</h2>
-                  <p class="address">
-						   <span>Sagar Tanna</span><br>
-						   <span>208 South Street<br>
-						         Jersey City, NJ 07307 US
-                     </span><br>
-						   <span>(551)226-2509</span><br>
-                     <span>stanna@stevens.edu</span>
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about1.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Sagar</h2>
+                        <p class="about__text">I am currently pursuing my Master's in Information Systems from Stevens Institute of Technology and I also hold a Bachelor's degree in Computer Engineering from the University of Mumbai, India.
+                        I am a data analytics enthusiast looking for opportunities to leverage data for making business decisions. Apart from my academics, I constantly make an effort to learn new technologies that intrigue me.<br>
+                        <br><h2 class="about__subtitle">Contact Details</h2>
+                    <p class="about__text"><span>(551)226-2509</span><br>
+                     <span>stanna@stevens.edu / sagar.st.tanna@gmail.com</span>
 					   </p>
+                    </div>   
+                </div>
+            </section>
 
-               </div>
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
 
-               <div class="columns download">
-                  <p>
-                     <a href="Sagar_Tanna_MIS_May 2021.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
-                  </p>
-               </div>
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <p class="skills__text">Apart from my certifications in <b>Microsoft Technology Associate: Security Fundamentals</b> and <b>Tableau Desktop Specialist</b>, here are some of my technical skills:</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABUklEQVRIS82UzU0DMRBGXyqADoAKAh3AGSHRAekAWqADxB0BJXDgDKKBQAfQAVQAemgdWRN71xuxEnNJpLW/5/nmZ8bEMZtYn38BOAXOgENgu8v4HXgFLrvfqhFDGewDz8AVcAFsBaVP4AAQWIwhgK++BY6AJ2C3oOI3H7ExQOG+GA3Q53mPYnytADP9Bu6jXdEixZcVK2rMZJ/f12oSAXddx4wZjxzgPbNYJIEIsBt2Rqh/ASfAS3ZHjb0aQB9jfFTaUKEb4BqwnfNYPTxmEAEP3QycZ0OWCymchq8JEC06Bh5HWOZRM17Ny1CRYwFbWL1FluyOSSthLOCtmwnb9TdKq0KIC05vHao4yUJrsbYyWnbRn6+K/HWugBIgWaGdDtXGyy7WJMH12Kl3hbuuBRVjyCIvCVHInve/tVHQlhZSfX2tyC2t2HymJYNmsdLByQE/5Ac/GXd2b54AAAAASUVORK5CYII="/>
+                                <span class="skills__name">&nbsp&nbsp&nbspPYTHON</span>
+                            </div>
+                            <div class="skills__bar skills__python">
 
-            </div> <!-- end row -->
-
-         </div> <!-- end .main-col -->
-
-      </div>
-
-   </section> <!-- About Section End-->
-
-
-   <!-- Resume Section
-   ================================================== -->
-   <section id="resume">
-
-      <!-- Education
-      ----------------------------------------------- -->
-      <div class="row education">
-
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Stevens Institute of Technology, Hoboken, NJ</h3>
-                  <p class="info">Master of Science in Information Systems <span>&bull;</span> <em class="date">May 2021</em></p>
-
-                  <p>
-                     Related courses: Big Data Technologies, Project Management Fundamentals, Web Mining, IT Strategy
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>University of Mumbai, INDIA </h3>
-                  <p class="info">Bachelor of Engineering in Computer Engineering <span>&bull;</span> <em class="date">May 2019</em></p>
-
-                  <p>
-                     Related courses: Software Project Management, Artificial Intelligence, Distributed Databases, Data Warehouse and Mining
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Education -->
-
-      <!-- Work
-      ----------------------------------------------- -->
-      <div class="row work">
-
-         <div class="three columns header-col">
-            <h1><span>Work</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>NextSTOP Consulting, Garden City, NY</h3>
-                  <p class="info">Business Analyst Intern <span>&bull;</span> <em class="date">October 2020 - Decemeber 2020</em></p>
-
-                  <p>
-                     • Identified opportunities to implement new analytical frameworks comprising of strategy development initiatives across all elements of NextSTOP’s business areas for effective client engagement
-                     <br>• Performed A/B testing to understand client expectations to optimize partners onboarding and segmentation resulting in 15% increase in NextSTOP’s global partners’ network
-                     <br>• Created interactive dashboards using Tableau to highlight the effectiveness of business processes, key company KPIs, and overall company performance to stakeholders influencing their decisions in prioritizing roadmap
-                     
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>OpenMyNetwork, New York, NY</h3>
-                  <p class="info">Business Technology Analyst Intern <span>&bull;</span> <em class="date">September 2020 - Decemeber 2020</em></p>
-
-                  <p>
-                     • Partnered with the development team to define data mapping and business reports to track key product metrics
-                     <br>• Participated in Requirement gathering, Data Analysis and Data Quality Testing as different segments of SDLC to identify product opportunities
-                     <br>• Reduced the deliverables turnaround time through automation using Selenium and BeautifulSoup in Python resulting in an estimated 20% reduction in budget and human resources
-                     <br>• Documented and tracked teams’ progress using Jira and communicated weekly high-level reports to the leads                     
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Work -->
-
-
-      <!-- Skills
-      ----------------------------------------------- -->
-      <div class="row skill">
-
-         <div class="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <p>Apart from my certifications in <b>Micrsoft Technology Associate: Security Fundamentals</b> and <b>Tableau Desktop Specialist</b>,
-               here are some of my technical skills: 
-
-            </p>
-
-				<div class="bars">
-
-				   <ul class="skills">
-					   <li><span class="bar-expand python"></span><em>Python</em></li>
-                  <li><span class="bar-expand sql"></span><em>SQL</em></li>
-						<li><span class="bar-expand excel"></span><em>Microsoft Excel</em></li>
-						<li><span class="bar-expand tab"></span><em>Tableau</em></li>
-					</ul>
-
-				</div><!-- end skill-bars -->
-
-			</div> <!-- main-col end -->
-
-      </div> <!-- End skills -->
-
-   </section> <!-- Resume Section End-->
-
-
-   <!-- Portfolio Section
-   ================================================== -->
-   <section id="portfolio">
-
-      <div class="row">
-
-         <div class="twelve columns collapsed">
-
-            <h1>Check Out Some of My Academic Projects</h1>
-
-            <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-00" title="">
-                        <img alt="" src="images/portfolio/breast-cancer-twitter-1.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Breast Cancer Sentiment Analysis using Twitter</h5>
-                              <p>Big Data Technologies</p>
-          					   </div>
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end --> 
-               
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-01" title="">
-                        <img alt="" src="images/portfolio/coffee.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Enhancing the DARPA SCORE claims dataset</h5>
-                              <p>Web Mining</p>
-          					   </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA+klEQVRIS+2V0Q3CMAxEXyeADYAJYAMYATaAyWAE2IARYAPYACYAHUpQUtImTRXxU0uWqij22fWdU1HYqsL5iQGsgSWwMD42BT2Ai/EzcGoqtAlgBeyBaWKHN2AHCMyzEMDWJE/M7V3bAEf3JASgaiY52QHFzmIAr8zkNswrOtRBcYA+v+heJ8Zfhixqyg8dhq3KxT51L/9aqAMl1mWZhCZNWKGNzPnTEZpoafmvb8W0AmjICpBwvGpa2KWOJUwVE2WRO2RbndbCFdCKkGllzE1ntkudD0NmGPKHIcXXtUDE5xwlJz04rp66KvlHi7E3uefTUJN172yBBG9GnUoZgBSRGQAAAABJRU5ErkJggg=="/>
+                                <span class="skills__name">&nbsp&nbsp&nbspSQL</span>
+                            </div>
+                            <div class="skills__bar skills__sql">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-02" title="">
-                        <img alt="" src="images/portfolio/console.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Loan Approval Prediction using Python </h5>
-                              <p>Applied Analytics</p>
-          					   </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAlUlEQVRIS72V0Q2AIAxEnxM4grqJo+hkOoqj6AZuoOEDQzCCoTn4bu9xB2kbxKcR61MdMAIL0Bc624EZ2Hx/7MAVdIXivs1pDF+Ayyj+0o0dVAV4uIfmPkR4uac25UAOsDzHLwdygDwiOUAekRwgj0gOkEckAZxAa1EGjnCfxLPILZzVsBOc+JRaOMbLv9tzI9gMlANuQrMkGRgI2wAAAAAASUVORK5CYII="/>
+                                <span class="skills__name">&nbsp&nbsp&nbspEXCEL</span>
+                            </div>
+                            <div class="skills__bar skills__excel">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-         
-                <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-04" title="">
-                        <img alt="" src="images/portfolio/into-the-light.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Automobile Resale System using Machine Learning</h5>
-                              <p>Machine Learning</p>
-          					   </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAnUlEQVRIS2NkoDFgpLH5DHS3wIGBgWE+AwODApk+e8DAwJDIwMBwAKYf3QcgBfJkGg7TBjJDEZcF/yk0HMNcdB8MuAUwBxFyCNzhpPpg+FmAy0dUCyKKLUA3gBCf5GRKyMBRH8BLW1jGIhRkgy8OyC37cOaDDwwMDPzkmgrV9xC5PkEvi0AVzgIK6gSQ4Qn4KhwKHY+pne51MtV9AADoEDEZdQh2agAAAABJRU5ErkJggg=="/>
+                                <span class="skills__name">&nbsp&nbsp&nbspTABLEAU</span>
+                            </div>
+                            <div class="skills__bar skills__tableau">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3_0.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
 
-                  </div>
-          		</div> <!-- item end --> 
-               
-         </div> <!-- twelve columns end -->
+            <!--===== WORK =====-->
+            
+            <section class="work section" id="work">
+                <h2 class="section-title">Academic Projects</h2>
+                <div class="work__container bd-grid">
+                    
+                    <div class="work__img">
+                        <img src="assets/img/work1_1.jpg" alt="">
+                        <a href="https://github.com/stanna97" class="portfolio__link-name">Breast Cancer Sentiment Analysis using Twitter</a>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work2_1.jpg" alt="">
+                        <a href="https://github.com/stanna97" class="portfolio__link-name">Enhancing the DARPA SCORE claims dataset</a>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work3_1.jpg" alt="">
+                        <a href="https://github.com/stanna97" class="portfolio__link-name">Loan Approval Prediction using Python</a>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-
-         <!-- Modal Popup
-	      --------------------------------------------------------------- -->
-
-         <div id="modal-00" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/breast-cancer-twitter.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Breast Cancer Sentiment Analysis using Twitter</h4>
-			      <p>•	Identified and collected over 17K tweets based on breast cancer using Tweepy using related hashtags
-                  <br>• Successfully cleaned and processed data using REGEX and TF-IDF vectors to present an analysis of the tweets using PySpark on an AWS EMR cluster
-                  <br>• Built a sentiment prediction model using algorithms such as Random Forest, Decision Tree and Logistic Regression
-               </p> 
-		      </div>
-
-            <div class="link-box">
-               <a href="https://github.com/stanna97">Link</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-04 End -->
-
-         
-         <div id="modal-01" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Enhancing the DARPA SCORE claims dataset</h4>
-			      <p>•	Employed Web Mining techniques to enhance DARPA’s SCORE dataset, used to assign confidence scores to research results and claims of Social and Behavioral Science (SBS) papers<br>
-                  •	Scraped ranking & H-index of journals of 2500 SBS published papers from SCImago Journal Site in Python<br>  
-                  •	Augmented quality of clam credibility computation by addition of rank and H-index attributes to SCORE dataset  
-                  </p>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://github.com/stanna97">Link</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
-         <div id="modal-02" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Loan Approval Prediction using Python</h4>
-			      <p>•	Developed a solution to a classification problem by automating the loan approval decision making of a loan approval/
-                     disapproval by identifying dependent customer attributes<br>
-                  •	Performed univariate and bivariate analysis of the dataset and achieved 85% accuracy and 92% precision scores using
-                     Logistic Regression<br>
-                  •	Generated correlations for various customer attributes affecting the decision making process for better data visualization
-            </p>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://github.com/stanna97">Link</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-02 End -->
-
-	      </div><!-- modal-03 End -->
-
-         <div id="modal-04" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Automobile Resale System using Machine Learning</h4>
-			      <p>• Applied concept of BeautifulSoup to scrap raw data of approximately 1750 cars to implement a model that predicts the price of a car based on various attributes ranging from the brand, model, mileage and age to the total distance traveled<br>
-                  • Implemented a machine learning model using multiple linear regression with an average accuracy of 70%
-                  </p>
-		      </div>
-
-            <div class="link-box">
-		         <a href="https://github.com/stanna97">Link</a>
-               <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-03 End -->
-
-      </div> <!-- row End -->
-
-   </section> <!-- Portfolio Section End-->
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p>&#169; 2021 Maintained by Sagar Tanna</p>
+        </footer>
 
 
-   
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-   <!-- footer
-   ================================================== -->
-   <footer>
-
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <ul class="copyright">
-               <li>&copy; Copyright 2021 </li>
-               <li>Maintained by <a href="https://www.linkedin.com/in/sagar-tanna/" title="Sagar Tanna" target="_blank">Sagar Tanna</a></li>   
-            </ul>
-
-         </div>
-
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-
-      </div>
-
-   </footer> <!-- Footer End-->
-
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
-
-</body>
-
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
